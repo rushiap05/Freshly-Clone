@@ -40,6 +40,26 @@
     margin: auto;
 }
 
-.philosophy-main-block > h1,h2,p {
+.clicked-img-div{
+    width: 550px;
+    height: 335px;
+}
+
+.line-height-div {
+    margin-top: 100px;
+}
+
+.background-img-div {
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/5ec2ac1d2f98b30604f1f132_20-spring-1-group-test-qa-1455-72-dpi.jpg");
+    
+    height: 360px;
+    width: 100%;
     text-align: center;
+    line-height: 360px;
+}
+
+.background-img-div > button {
+    height: 60px;
+    width: 280px;
+    font-size: 23px;
 }
