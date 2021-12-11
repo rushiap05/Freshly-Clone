@@ -1,9 +1,26 @@
 *{
     font-family: Favoritfreshly,sans-serif;
-    border: 1px dotted red;
 }
 
 .top-three-width {
-    width: 600px;
+    width: 590px;
     margin: auto;
+    color: #717171;
+}
+
+.top-three-width > div:hover {
+    background-color: rgb(223, 221, 221);
+    transition-duration: .3s;
+}
+
+.about-freshly {
+    font-size: 60px;
+}
+
+.work-video-part {
+    background-color: #fffdf7;
+}
+
+.work-video-div {
+    width: fit-content;
 }
