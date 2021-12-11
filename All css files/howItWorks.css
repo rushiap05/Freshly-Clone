@@ -35,6 +35,11 @@
     height: 200px;
 }
 
+.img-phi-cen {
+    width: fit-content;
+    margin: auto;
+}
+
 .philosophy-main-block > h1,h2,p {
     text-align: center;
 }
