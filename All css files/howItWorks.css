@@ -24,3 +24,17 @@
 .work-video-div {
     width: fit-content;
 }
+
+.philosophy-main-block {
+    width: 50%;
+    margin: auto;
+}
+
+.philosophy-img {
+    width: 180px;
+    height: 200px;
+}
+
+.philosophy-main-block > h1,h2,p {
+    text-align: center;
+}
