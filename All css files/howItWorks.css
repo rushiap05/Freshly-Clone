@@ -1,0 +1,9 @@
+*{
+    font-family: Favoritfreshly,sans-serif;
+    border: 1px dotted red;
+}
+
+.top-three-width {
+    width: 600px;
+    margin: auto;
+}
