@@ -1,4 +1,6 @@
 *{
+    margin: 0px;
+    padding: 0px;
     font-family: Favoritfreshly,sans-serif;
 }
 
@@ -62,4 +64,19 @@
     height: 60px;
     width: 280px;
     font-size: 23px;
+}
+
+.three-link > img {
+    width: 90%;
+}
+
+.three-link-center-div {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.freshly-work-last-div {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #fffdf7;
 }
