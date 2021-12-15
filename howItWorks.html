@@ -181,9 +181,11 @@
 
 var footer_container = document.getElementById('footerContainer');
 
-import footer from "/All javascript files/footer.js";
+import {footer} from "/All javascript files/footer.js";
 
-footer_container.append = footer()
+// console.log(footer());
+
+footer_container.innerHTML = footer();
 
 
 </script>

@@ -56,6 +56,8 @@ function footer() {
         </div>
     </div>
 </div>`
+
+return foot;
 }
 
-export default footer 
+export {footer}
