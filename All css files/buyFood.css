@@ -3,3 +3,12 @@
     grid-template-columns: 70% 30%;
 }
 
+#main-container {
+    display: grid;
+    grid-template-columns: repeat(4,23%);
+    grid-gap: 2%;
+}
+
+#main-container > div > img {
+    width: 100%;
+}
