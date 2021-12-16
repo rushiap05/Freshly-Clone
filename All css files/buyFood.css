@@ -1,14 +1,42 @@
 .food-show-main-div {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 75% 25%;
 }
 
 #main-container {
     display: grid;
     grid-template-columns: repeat(4,23%);
-    grid-gap: 2%;
+    grid-gap: 30px;
+    background-color: #fffdf7;
 }
 
-#main-container > div > img {
+.foodImg {
     width: 100%;
+}
+
+.adding-button-div{
+    display: flex;
+    margin: 15px;
+}
+
+.adding-button-div > span {
+    border-right: 0.5px solid #717171;
+    margin-left: 3px;
+    color: #717171;
+}
+
+.adding-button-div > button {
+    width: 110px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.show-food-div1 {
+    background-color: white;
+    border: 0.5px solid lightgrey;
+}
+
+.show-food-div3 {
+    height: 100px;
+    margin: 15px;
 }
