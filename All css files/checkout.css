@@ -10,6 +10,7 @@
 .main_body_grid_div {
     display: grid;
     grid-template-columns: 70% 30%;
+    grid-gap: 40px;
 }
 
 .first_name_input {
