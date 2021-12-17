@@ -46,3 +46,7 @@ var appendFood = async () => {
 // showproduct()
 
 appendFood()
+
+function redirectBuy() {
+    window.location.href = 'buyFood.html'
+}

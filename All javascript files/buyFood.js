@@ -117,3 +117,7 @@ if(localStorage.getItem('foodCart') === null){
 }
 
 appendFood()
+
+function redirectCheck() {
+    window.location.href = "checkout.html"
+}
