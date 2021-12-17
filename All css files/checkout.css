@@ -3,4 +3,21 @@
     padding: 0px;
 }
 
+.main_body {
+    background-color: #fffdf7;
+}
 
+.main_body_grid_div {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.first_name_input {
+    width: 90%;
+    height: 50px;
+}
+
+.input_all_center {
+    width: 90%;
+    margin: 30px auto;
+}
