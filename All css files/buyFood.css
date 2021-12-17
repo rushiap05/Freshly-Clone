@@ -51,8 +51,30 @@
 #cartId > div {
     display: flex;
     margin: 15px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
 }
 
 #cartId > div > img {
     width: 100px;
+}
+#item_count {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0.5px solid grey;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.buy_last_button {
+    text-decoration: none;
+    width: 180px;
+    height: 50px;
+    padding: 8px;
+    font-size: 22px;
+    margin: 20px;
+    background-color: blue;
 }

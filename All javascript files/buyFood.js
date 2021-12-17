@@ -81,6 +81,8 @@ var appendFood = async () => {
 
 // showproduct()
 
+let item_count = document.getElementById('item_count')
+
 let cart_div_id = document.getElementById('cartId')
 
 var foodCart = (d) => {
@@ -109,6 +111,7 @@ if(localStorage.getItem('foodCart') === null){
      cart_div_id.append(div1)
 
  })
+ item_count.innerText = product_cart.length;
   
    
 }
