@@ -1,0 +1,11 @@
+#plan-container {
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    grid-gap: 3%;
+    width: 95%;
+    margin: auto;
+}
+
+.foodImg {
+    width: 100%;
+}
