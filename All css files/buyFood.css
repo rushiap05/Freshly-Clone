@@ -9,7 +9,7 @@
     grid-gap: 30px;
     background-color: #fffdf7;
     overflow-y: scroll;
-    height: 900px;
+    height: 860px;
 }
 
 .foodImg {
@@ -41,4 +41,18 @@
 .show-food-div3 {
     height: 100px;
     margin: 15px;
+}
+
+#cartId {
+    height: 700px;
+    overflow-y: scroll;
+}
+
+#cartId > div {
+    display: flex;
+    margin: 15px;
+}
+
+#cartId > div > img {
+    width: 100px;
 }
