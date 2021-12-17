@@ -86,7 +86,10 @@ let item_count = document.getElementById('item_count')
 let cart_div_id = document.getElementById('cartId')
 
 var foodCart = (d) => {
+    cart_div_id.innerHTML = null;
     console.log(d);
+
+    
     
 if(localStorage.getItem('foodCart') === null){
     localStorage.setItem('foodCart', JSON.stringify([]));
