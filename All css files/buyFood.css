@@ -8,6 +8,8 @@
     grid-template-columns: repeat(4,23%);
     grid-gap: 30px;
     background-color: #fffdf7;
+    overflow-y: scroll;
+    height: 900px;
 }
 
 .foodImg {

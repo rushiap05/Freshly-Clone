@@ -63,6 +63,15 @@ var appendFood = async () => {
         button_add.innerText = "+Add"
         button_add.classList.add('btn-primary')
 
+        let food_cart_data = {
+            foodImg : food.strMealThumb,
+            foodName : food.strMeal
+        }
+
+        button_add.onclick = () => {
+            foodCart(food_cart_data)
+        }
+
         div2.append(span1,span2,span3,span4,button_add)
 
         div1.append(img,div3,div2);
@@ -71,5 +80,37 @@ var appendFood = async () => {
 }
 
 // showproduct()
+
+let cart_div_id = document.getElementById('cartId')
+
+var foodCart = (d) => {
+    console.log(d);
+    
+if(localStorage.getItem('foodCart') === null){
+    localStorage.setItem('foodCart', JSON.stringify([]));
+  }
+  let product_cart = JSON.parse(localStorage.getItem('foodCart'));
+
+  product_cart.push(d);
+  localStorage.setItem('foodCart', JSON.stringify(product_cart))
+  console.log(product_cart);
+
+ product_cart.forEach(function(food_single){
+     let div1 = document.createElement('div');
+
+     let img = document.createElement('img');
+     img.src = food_single.foodImg;
+
+     let name = document.createElement('p');
+     name.innerText = food_single.foodName;
+
+     div1.append(img,name)
+
+     cart_div_id.append(div1)
+
+ })
+  
+   
+}
 
 appendFood()
